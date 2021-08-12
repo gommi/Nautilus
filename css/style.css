@@ -1,0 +1,2508 @@
+@font-face {
+  font-family: 'LibreFranklin-Regular';
+  src: url('../fonts/LibreFranklin-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'LibreFranklin-Medium';
+  src: url('../fonts/LibreFranklin-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'LibreFranklin-SemiBold';
+  src: url('../fonts/LibreFranklin-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'LibreFranklin-Bold';
+  src: url('../fonts/LibreFranklin-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'LibreFranklin-SemiBold';
+  src: url('../fonts/LibreFranklin-SemiBold.ttf');
+}
+
+.nav-link{
+    color: #0085B8 !important;
+
+    font-family: 'LibreFranklin-SemiBold';
+    font-size: 16px;
+    font-weight: bold;
+
+    padding-right: 25px !important;
+}
+
+.navbar-toggler{
+    border:  unset !important;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 133, 184, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+#banner{
+  background-image: url("../img/banner.png");
+  background-color: #cccccc;
+  height: 532px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 0 !important;
+  position: relative;
+}
+
+.bannerTitle{
+    position: absolute;
+    top: 400px !important;
+    /*top: 72.5vh !important;*/
+    left: -20px !important;
+    height: 190px !important;
+    /*height: 139px !important;*/
+    width: 75% !important;
+    /*width: 923px !important;*/
+
+    background-color: none;
+    
+    padding-left: 0 !important;
+}
+
+.bannerTitle > img{
+    height: 190px !important;
+    /*height: 139px !important;*/
+}
+
+.bannerTxt{
+    position: absolute;
+    top: 450px !important;
+    left: 35px !important;
+    width: 753px !important;
+}
+
+.bannerTxt > p{
+    font-family: 'LibreFranklin-Bold';
+    font-size: 36px !important;
+    font-weight: bold !important;
+    line-height: 44px !important;
+    color: #fff !important; 
+}
+
+.bannerText{
+    width: 70% !important;
+    font-size: 48px !important;
+    line-height: 58px !important;
+    font-weight: bold !important;
+    color: #fff !important;
+}
+
+
+#textDiv{
+   height: auto !important;
+   background-color: #F0F9FE !important; 
+}
+
+#textDivTwo{
+   height: 310px !important;
+   background-color: #F0F9FE !important; 
+}
+
+#blueTxt{
+    color: #198FBC;
+    font-family: 'LibreFranklin-Medium';
+    font-size: 30px;
+    line-height: 36px;
+
+    padding-top: 76px !important;
+    padding-bottom: 35px !important;
+}
+
+#greyTxt{
+    color: #635B58;
+    font-family: 'LibreFranklin-Regular';
+    font-size: 24px;
+    line-height: 29px;
+
+    padding-bottom: 48px !important;
+}
+
+#cardCont{
+    height: 110vh !important;
+    background-color: #F0F9FE !important;
+}
+
+/* Card one on Index*/
+
+#cardRow{
+    padding-bottom: 67px !important;
+}
+
+.card{
+    border: none !important;
+}
+
+#cardTopOne{
+    width: auto !important;
+    height: 25px !important;
+    background-color: #378C3C;
+    border: 3px solid #fff;
+}
+
+#cardOne .card-img-top{
+    height: 220px !important;
+}
+
+#cardOne .card-body{
+    height: 350px !important;
+}
+
+#cardOne .card-title{
+    font-size: 22px !important;
+    line-height: 32px !important;
+    font-weight: bold !important;
+    font-family: 'LibreFranklin-Bold';
+    color: #0085B8 !important;
+
+    padding-top: 40px !important;
+    padding-right: 55px !important;
+    padding-left: 40px !important;
+}
+
+#cardOne .card-text{
+    font-size: 18px !important;
+    line-height: 30px !important;
+    font-family: 'LibreFranklin-Regular';
+    color: #635B58;
+
+    padding-top: 40px !important;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+}
+
+#cardOne .card-footer{
+    border: none !important;
+    background-color: #fff !important;
+    padding-top: 37px !important;
+    padding-bottom: 37px !important;
+    padding-left: 40px !important;
+}
+
+/* Card two on Index*/
+
+#cardTopTwo{
+    width: auto !important;
+    height: 25px !important;
+    background-color: #0085B8;
+    border: 3px solid #fff;
+}
+
+#cardTwo{
+    background-color: #ECECEC !important;
+    box-shadow: 5px 5px 20px rgb(184, 184, 184) !important;
+}
+
+#cardTwo .card-img-top{
+    height: 220px !important;
+}
+
+#cardTwo .card-body{
+    height: 350px !important;
+}
+
+#cardTwo .card-title{
+    font-size: 22px !important;
+    line-height: 32px !important;
+    font-weight: bold !important;
+    font-family: 'LibreFranklin-Bold';
+    color: #0085B8 !important;
+
+    padding-top: 40px !important;
+    padding-right: 55px !important;
+    padding-left: 40px !important;
+}
+
+#cardTwo .card-text{
+    font-size: 18px !important;
+    line-height: 30px !important;
+    font-family: 'LibreFranklin-Regular';
+    color: #635B58;
+
+    padding-top: 40px !important;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+}
+
+#cardTwo .card-footer{
+    border: none !important;
+    background-color: #ECECEC !important;
+    padding-top: 37px !important;
+    padding-bottom: 37px !important;
+    padding-left: 40px !important;
+}
+
+/* Card three on Index*/
+
+#cardTopThree{
+    width: auto !important;
+    height: 25px !important;
+    background-color: #635B58;
+    border: 3px solid #fff;
+}
+
+#cardThree .card-img-top{
+    height: 220px !important;
+}
+
+#cardThree .card-body{
+    height: 350px !important;
+}
+
+#cardThree .card-title{
+    font-size: 22px !important;
+    line-height: 32px !important;
+    font-weight: bold !important;
+    font-family: 'LibreFranklin-Bold';
+    color: #0085B8 !important;
+
+    padding-top: 40px !important;
+    padding-right: 55px !important;
+    padding-left: 40px !important;
+}
+
+#cardThree .card-text{
+    font-size: 18px !important;
+    line-height: 30px !important;
+    font-family: 'LibreFranklin-Regular';
+    color: #635B58;
+
+    padding-top: 40px !important;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+}
+
+#cardThree .card-footer{
+    border: none !important;
+    background-color: #fff !important;
+    padding-top: 37px !important;
+    padding-bottom: 37px !important;
+    padding-left: 40px !important;
+}
+
+.tellMeBtn{
+
+    background-color: #45C1F1 !important;
+    color: #fff !important;
+    box-shadow: 5px 5px 18px rgb(184, 184, 184) !important;
+
+    font-size: 18px !important;
+    font-weight: bold !important;
+
+    border-radius: 10px !important;
+}
+
+.tellMeBtn > i{
+    color: #fff !important;
+}
+
+#aboutCont{
+    background-image: url("../img/polygon.png");
+    background-color: #cccccc;
+    height: 481px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.polygonDiv{
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 310px;
+    width: 800px;
+    -webkit-clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+    -moz-clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+    padding-top: 35px !important;
+}
+
+.polyTitle{
+    font-family: 'LibreFranklin-Bold';
+    font-size: 32px !important;
+    font-weight: bold !important;
+
+    color: #0085B8 !important;
+}
+
+.polyText{
+    width: 572px;
+    font-family: 'LibreFranklin-Regular';
+    font-size: 18px !important;
+    line-height: 30px;
+    
+    color: #6E6765 !important;
+}
+
+.tellMePolBtn{
+    background-color: #378C3C !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    border-radius: 10px !important;
+}
+
+.tellMePolBtn > i{
+    color: #fff !important;
+}
+
+#quote{
+    height: 496px !important;
+
+    background-color: #635B58 !important;
+}
+
+#quoteContainer{
+    width: 800px !important;
+}
+
+.quoteTitle{
+    font-family: 'LibreFranklin-Bold';
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+
+    color: #fff;
+}
+
+.quoteText{
+    font-family: 'LibreFranklin-Regular';
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+}
+
+::placeholder {
+  color: #45C1F1 !important;
+  font-family: 'LibreFranklin-Medium';
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+#firstName{
+    border-radius: 0 !important;
+}
+
+#lastName{
+    border-radius: 0 !important;
+}
+
+#company{
+    border-radius: 0 !important;
+}
+
+#email{
+    border-radius: 0 !important;
+}
+
+#phone{
+    border-radius: 0 !important;
+}
+
+#textarea{
+    border-radius: 0 !important;
+}
+
+.sendBtn{
+    width: 158px !important;
+    height: 40px !important;
+
+    background-color: #000 !important;
+    color: #fff !important;
+
+    border-radius: 10px !important;
+
+    font-weight: bold !important;
+}
+
+#footerCont{
+    height: 204px !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+#footerOne{
+    color: #635B58 !important;
+    /*width: 400px !important;*/
+    padding: 0 !important;
+}
+
+#footerOne > p{
+    font-family: 'LibreFranklin-Regular';
+    font-size: 12px;
+    line-height: 26px;
+
+    margin-left: 10px !important;
+}
+
+#footerTwo{
+    /*width: 400px !important;*/
+    padding: 0 !important;
+
+    padding-left: 80px !important;
+
+    border-left: 2px solid #45C1F1;
+
+    color: #635B58 !important;
+}
+
+#footerTwo > p{
+    font-family: 'LibreFranklin-Regular';
+    font-size: 12px;
+}
+
+.footerLogo{
+    width: 110px;
+    height: 33px;
+}
+
+.brandName{
+    font-family: 'LibreFranklin-Bold';
+    font-weight: bold !important;
+}
+
+.footerEmail{
+    font-family: 'LibreFranklin-Regular';
+    color: #45C1F1 !important;
+}
+
+#footerThree{
+    /*width: 400px !important;*/
+    padding: 0 !important;
+
+    font-family: 'LibreFranklin-Medium';
+    font-size: 12px !important;
+
+   padding-left: 80px !important;
+
+    color: #45C1F1 !important;
+
+    border-left: 2px solid #45C1F1;
+}
+#footerThree p > a{
+    text-decoration: none !important;
+    color: #45C1F1 !important;
+    font-family: 'LibreFranklin-Medium' !important;
+    font-size: 12px !important;
+}
+
+
+
+/*************Automation**************/
+#auBanner{
+    background-image: url("../img/auBanner.png");
+    background-color: #cccccc;
+    height: 353px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0 !important;
+    position: relative;
+}
+
+.auTitle{
+    position: absolute;
+    top: 240px !important;
+    /*top: 72.5vh !important;*/
+    left: -20px !important;
+    height: 190px !important;
+    /*height: 139px !important;*/
+    width: 75% !important;
+    /*width: 923px !important;*/
+
+    background-color: none;
+    
+    padding-left: 0 !important;
+}
+
+.auTitle > img{
+    height: 190px !important;
+    /*height: 139px !important;*/
+}
+
+.auTxt{
+    position: absolute;
+    top: 317px !important;
+    left: 35px !important;
+    width: 753px !important;
+}
+
+.auTxt > p{
+    font-family: 'LibreFranklin-Bold';
+    font-size: 36px !important;
+    font-weight: bold !important;
+    line-height: 44px !important;
+    color: #fff !important; 
+}
+
+#auTextDiv{
+    height: 398px !important;
+    background-color: #F0F9FE !important; 
+}
+
+#auBlueTxt{
+    color: #198FBC;
+    font-family: 'LibreFranklin-Medium';
+    font-size: 30px;
+    line-height: 36px;
+
+    padding-top: 64px !important;
+    padding-bottom: 40px !important;
+    margin: 0 !important;
+}
+#auGreyTxt{
+    color: #635B58;
+    font-family: 'LibreFranklin-Regular';
+    font-size: 24px;
+    line-height: 29px;
+
+    width: 900px !important;
+}
+
+#auCentralCont{
+    background-color: #C3E3F1 !important;
+
+    padding-top: 44px !important;
+    padding-bottom: 66px !important;
+}
+
+#centralText{
+    background-color: #fff;
+}
+
+.greenHeader{
+    width: auto !important;
+    height: 30px !important;
+    background-color: #378C3C;
+    border: 3px solid #fff;
+}
+
+.greenPolygon{
+    width: 100%;
+    padding-bottom: 37px !important;
+}
+
+.automationTitle{
+    font-size: 32px !important;
+    font-weight: bold !important;
+
+    color: #0085B8 !important;
+    
+    padding-top: 31px !important;
+    padding-left: 37px !important;
+    padding-right: 37px !important;
+}
+
+.automationText{
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #635B58 !important;
+
+    padding-top: 31px !important;
+    padding-left: 37px !important;
+    padding-right: 37px !important;
+}
+
+#centralText > li {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #635B58 !important;
+
+    padding-left: 50px !important;
+    padding-right: 37px !important;
+}
+
+#rightSide{
+    background-color: #fff;
+
+    padding-top: 22px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+#rightSide .card > img{
+    height: 175px !important;
+}
+
+#rightSideCardTwo{
+    padding-top: 37px !important;
+
+    border-radius: 0 !important;
+}
+
+#rightSideCardTwo> img{
+    border-radius: 0 !important;
+    height: 175px !important;
+}
+
+#rightSide .card .card-title{
+    font-size: 18px !important;
+    color: #0085B8 !important;
+    font-weight: bold;
+
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+#rightSide .card .card-text{
+    color: #6E6765;
+    font-size: 16px;
+    line-height: 19px !important;
+
+    padding-bottom: 16px !important;
+}
+
+#rightSide .card > .card-footer{
+    border: none !important;
+    background-color: #fff !important;
+}
+
+.tellMeBtnRS{
+    background-color: #45C1F1 !important;
+    color: #fff !important;
+    box-shadow: 5px 5px 18px rgb(184, 184, 184) !important;
+
+    font-size: 18px !important;
+    font-weight: bold !important;
+
+    border-radius: 10px !important;
+
+    margin-bottom: 16px !important;
+}
+
+.tellMeBtnRS > i{
+    color: #fff !important;
+}
+
+/***************** Our project *********************/
+#opBanner{
+    background-image: url("../img/opBanner.png");
+    background-color: #cccccc;
+    height: 353px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0 !important;
+}
+
+.opTitle{
+    position: absolute;
+    top: 373px !important;
+    /*top: 72.5vh !important;*/
+    left: 0px !important;
+    height: 190px !important;
+    /*height: 139px !important;*/
+    width: 31% !important;
+    /*width: 923px !important;*/
+
+    background-color: none;
+    
+    padding-left: 0 !important;
+}
+
+.opTitle > img{
+    height: 190px !important;
+    /*height: 139px !important;*/
+}
+
+.opTxt{
+    position: absolute;
+    top: 430px !important;
+    left: 50px !important;
+    width: 753px !important;
+}
+
+.opTxt > p{
+    font-family: 'LibreFranklin-Bold';
+    font-size: 36px !important;
+    font-weight: bold !important;
+    line-height: 44px !important;
+    color: #fff !important; 
+}
+
+#opCont{
+    background-color: #C3E3F1 !important;
+
+    padding-top: 140px !important;
+    padding-bottom: 52px !important;
+}
+
+#containerBT{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.imageTop{
+    background-image: url("../img/opBigImage.png");
+    background-color: #cccccc;
+    height: 372px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 17px !important;
+    padding-left: 0 !important;
+}
+
+.opTxtTitle{
+    font-size: 32px !important;
+    font-weight: bold !important;
+    font-family: 'LibreFranklin-Bold';
+
+    color: #0085B8 !important;
+
+    padding-top: 24px !important;
+    padding-left: 16px !important;
+}
+
+.opText{
+    font-size: 16px !important;
+    font-family: 'LibreFranklin-Medium';
+
+    padding-top: 24px !important;
+    padding-left: 16px !important;
+}
+
+.buttonMore{
+    text-decoration: none !important;
+    color: #45C1F1 !important;
+    padding-left: 16px !important;
+    padding-right: 30px !important;
+
+    font-size: 18px !important;
+    font-weight: bold !important;
+    font-family: 'LibreFranklin-Bold';
+}
+
+#cardContainer{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+.greenTitle{
+    font-size: 24px !important;
+    line-height: 28px !important;
+    font-family: 'LibreFranklin-Bold';
+    font-weight: bold !important;
+    color: #378C3C;
+
+    padding-top: 30px !important;
+    padding-left: 2px !important;
+    padding-bottom: 17px !important;
+}
+
+#containerAS{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 40px !important;
+}
+
+#titleAS{
+    font-size: 24px !important;
+    line-height: 28px !important;
+    font-family: 'LibreFranklin-Bold';
+    font-weight: bold !important;
+    color: #378C3C;
+
+    padding-top: 38px !important;
+    padding-left: 30px !important;
+}
+
+.dataTime{
+    font-size: 16px !important;
+    font-weight: bold;
+    font-family: 'LibreFranklin-Bold';
+    color: #96999C !important;
+
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.blueTextLink{
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-family: 'LibreFranklin-Regular';
+    color: #006F97 !important;
+
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.blueCard{
+    background-color: rgba(69, 193, 241, 0.1) !important;
+    border-radius: 0 !important;
+}
+
+.blueCard .card-body {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.blueCard .card-body .card-title{
+    font-size: 17px !important;
+    line-height: 25px !important;
+    font-weight: bold !important;
+    font-family: 'LibreFranklin-Bold' !important;
+    color: #0085B8 !important;
+}
+
+.blueCard .card-body .card-text{
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-family: 'LibreFranklin-Regular' !important;
+    color: #635B58 !important;
+
+    padding-top: 20px !important;
+}
+
+.blueCard .card-footer{
+    background-color: rgba(69, 193, 241, 0) !important;
+    border: none !important;
+
+    padding-top: 16px !important;
+    padding-right: 0 !important;
+    padding-bottom: 25px !important;
+    padding-left: 0 !important;
+}
+
+.blueButtonMore{
+    text-decoration: none !important;
+    color: #45C1F1 !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+.imgBlueCard{
+    height: 173px !important;
+}
+
+/********************** Client Story ********************/
+#csBanner{
+    background-image: url("../img/opBanner.png");
+    background-color: #cccccc;
+    height: 353px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0 !important;
+    position: relative;
+}
+
+.csTitle{
+    position: absolute;
+    top: 250px !important;
+    /*top: 72.5vh !important;*/
+    left: 0px !important;
+    height: 190px !important;
+    /*height: 139px !important;*/
+    width: 31% !important;
+    /*width: 923px !important;*/
+
+    background-color: none;
+    
+    padding-left: 0 !important;
+}
+
+.csTitle > img{
+    height: 190px !important;
+    /*height: 139px !important;*/
+}
+
+.csTxt{
+    position: absolute;
+    top: 315px !important;
+    left: 35px !important;
+    width: 753px !important;
+}
+
+.csTxt > p{
+    font-family: 'LibreFranklin-Bold';
+    font-size: 36px !important;
+    font-weight: bold !important;
+    line-height: 44px !important;
+    color: #fff !important; 
+}
+
+.csImageTop{
+    background-image: url("../img/csBigImage.png");
+    background-color: #cccccc;
+    height: 500px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-left: 0 !important;
+}
+
+#clientStoryCont{
+    background-color: #C3E3F1 !important;
+    padding-top: 135px !important;
+    padding-bottom: 61px !important;
+}
+
+#imageCS{
+    height: 400px !important;
+    padding: 0 !important;
+}
+
+.blueTextSegment{
+    font-family: 'LibreFranklin-Medium';
+    color: #45C1F1;
+}
+
+.auBlueTextSegment{
+    font-family: 'LibreFranklin-SemiBold';
+    color: #45C1F1; 
+}
+
+#csCentralText{
+    background-color: #fff;
+    padding-bottom: 57px !important;
+}
+
+.blueTitle{
+    font-size: 32px !important;
+    font-weight: bold !important;
+    line-height: 39px !important;
+
+    color: #0085B8 !important;
+
+    padding-top: 36px !important;
+    padding-right: 30px !important;
+    padding-bottom: 36px !important;
+    padding-left: 30px !important;
+}
+
+.greyText{
+    font-size: 16px !important;
+    line-height: 28px !important;
+    font-family: 'LibreFranklin-Medium' !important;
+
+    color: #635B58 !important;
+
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+/************* Contact us *****************/
+#cuBanner{
+    background-image: url("../img/cuBanner.png");
+    background-color: #cccccc;
+    height: 353px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0 !important;
+    position: relative;
+}
+
+.cuTitle{
+    position: absolute;
+    top: 250px !important;
+    /*top: 72.5vh !important;*/
+    left: 0px !important;
+    height: 190px !important;
+    /*height: 139px !important;*/
+    width: 38% !important;
+    /*width: 923px !important;*/
+
+    background-color: none;
+    
+    padding-left: 0 !important;
+}
+
+.cuTitle > img{
+    height: 190px !important;
+    /*height: 139px !important;*/
+}
+
+.cuTxt{
+    position: absolute;
+    top: 315px !important;
+    left: 50px !important;
+    width: 753px !important;
+}
+
+.cuTxt > p{
+    font-family: 'LibreFranklin-Bold';
+    font-size: 36px !important;
+    font-weight: bold !important;
+    line-height: 44px !important;
+    color: #fff !important; 
+}
+
+#cuContFluid{
+    background-color: #F0F9FE !important;
+}
+
+#containerCU{
+    height: 317px !important;
+}
+
+#cuBlueTxt{
+    color: #198FBC;
+    font-family: 'LibreFranklin-Medium';
+    font-size: 26px;
+    line-height: 31px;
+
+    padding-bottom: 36px !important;
+}
+
+#cuGreyTxt{
+    color: #635B58;
+    font-family: 'LibreFranklin-Regular';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#cuContFluid{
+    background-color: #F0F9FE !important;
+}
+
+@media (max-width: 576px) {
+    #rightSide{
+        margin-top: 37px !important;
+    }
+
+    #banner{
+        height: 430px !important;
+    }
+
+    .bannerTitleSmall{
+        position: absolute;
+        top: 290px !important;
+        height: 180px !important;
+        width: 100%;
+        background-color: rgba(0, 133, 184, 0.9) !important;
+    }
+
+    .bannerTxt{
+        position: absolute;
+        top: 320px !important;
+        left: 50px !important;
+        right: 50px !important;
+        width: auto !important;
+    }
+
+    .bannerTxt > p {
+        font-size: 26px !important;
+        line-height: 31px !important;
+    }
+
+    #textDivTwo{
+        height:383px !important;
+    }
+
+    #blueTxt{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        width: 90% !important;
+
+        padding-top: 50px !important;
+        padding-bottom: 0px !important;
+
+    }
+
+    #greyTxt{
+        font-size: 18px !important;
+        line-height: 21px !important;
+
+        width: 90% !important;
+
+        padding-bottom: 0 !important;
+    }
+
+    #cardRow{
+        padding-bottom: 0px !important;
+    }
+
+    #cardOne .card-img-top{
+        height: 215px !important;
+    }
+
+    #cardOne .card-body{
+        height: 380px !important;
+    }
+
+    #cardOne .card-title{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        padding-top: 18px !important;
+        padding-right: 65px !important;
+        padding-left: 24px !important;
+    }
+
+    #cardOne .card-text{
+        font-size: 18px !important;
+        line-height: 30px !important;
+
+        padding-top: 20px !important;
+        padding-right: 40px !important;
+        padding-left: 24px !important;
+    }
+
+    #cardOne .card-footer{
+        height: 156px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Card two on Index*/
+
+    #cardTwo .card-img-top{
+        height: 220px !important;
+    }
+
+    #cardTwo .card-body{
+        height: 318px !important;
+    }
+
+    #cardTwo .card-title{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        padding-top: 18px !important;
+        padding-right: 65px !important;
+        padding-left: 24px !important;
+    }
+
+    #cardTwo .card-text{
+        font-size: 18px !important;
+        line-height: 30px !important;
+
+        padding-top: 20px !important;
+        padding-right: 40px !important;
+        padding-left: 24px !important;
+    }
+
+    #cardTwo .card-footer{
+        height: 147px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Card three on Index*/
+
+    #cardThree .card-img-top{
+        height: 220px !important;
+    }
+
+    #cardThree .card-body{
+        height: 324px !important;
+    }
+
+    #cardThree .card-title{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        padding-top: 18px !important;
+        padding-right: 65px !important;
+        padding-left: 24px !important;
+    }
+
+    #cardThree .card-text{
+        font-size: 18px !important;
+        line-height: 30px !important;
+
+        padding-top: 20px !important;
+        padding-right: 40px !important;
+        padding-left: 24px !important;
+    }
+
+    #cardThree .card-footer{
+        height: 141px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tellMeBtn{
+        font-size: 18px !important;
+
+        border-radius: 10px !important;
+    }
+
+    #aboutCont{
+        background-image: url("../img/polySmallImg.png");
+        background-color: #cccccc;
+        height: 252px !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .polygonBlue{
+        background-color: #0085B8 !important;
+    }
+
+    .polyTitle{
+        color: #fff !important;
+
+        padding-left: 32px !important;
+    }
+
+    .polyText{
+        color: #fff !important;
+        padding-left: 32px !important;
+    }
+
+    .tellMePolBtn{
+        padding-left: 32px !important;
+        margin-bottom: 32px !important;
+    }
+
+    #opCont{
+        padding-top: 58px !important;
+        padding-bottom: 52px !important;
+        padding-bottom: 37px !important;
+    }
+
+    .opTitleSmall{
+        position: absolute;
+        top: 360px !important;
+        height: 139px !important;
+        width: 100%;
+        background-color: rgba(55, 140, 60, 0.9) !important;
+    }
+
+    .opTxt{
+        top: 410px !important;
+        width: auto !important;
+    }
+
+    .imageTop{
+        margin: 0 !important;
+    }
+
+    .opTxtTitle{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        margin: 0 !important;
+
+        padding-right: 50px !important;
+    }
+
+    .opText{
+        font-size: 16px !important;
+        line-height: 24px !important;
+
+        margin: 0 !important;
+        padding-right: 50px !important;
+    }
+
+    #containerBT{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .card-img, .card-img-top{
+        height: 115px !important;
+    }
+
+    .blueCard .card-body{
+        padding-top: 18px !important;
+        padding-left: 15px !important;
+        padding-right: 23px !important;
+    }
+
+    .blueCard .card-body .card-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+
+    .blueButtonMore{
+        padding: 0 0 0 15px !important;
+
+    }
+
+    #containerAS{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    #cardContainer{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .cuTitleSmall{
+        position: absolute;
+        top: 230px !important;
+        height: 179px !important;
+        width: 100%;
+        background-color: rgba(0, 133, 184, 0.9);
+    }
+
+    .cuTxt{
+        top: 290px !important;
+        width: auto !important;
+    }
+     #containerCU{
+        height: 363px !important;
+    }
+
+    #cuBlueTxt{
+        font-size: 22px;
+        line-height: 26px;
+
+        padding-top: 45px !important;
+        padding-bottom: 30px !important;
+    }
+
+    #cuGreyTxt{
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .polyTitle{
+        color: #fff !important;
+
+        padding-top: 30px !important;
+        padding-left: 32px !important;
+
+        font-size: 24px !important;
+        line-height: 29px !important;
+    }
+
+    .polyText{
+        color: #fff !important;
+        padding-right: 30px !important;
+        padding-left: 32px !important;
+        width: auto !important;
+
+        font-size: 16px !important;
+        line-height: 30px !important;
+    }
+
+    .tellMePolBtn{
+        margin-left: 32px !important;
+        padding-left: 12px !important;
+    }
+
+    .auBanner{
+        height: 431px !important;
+    }
+
+    .auTitleSmall{
+        position: absolute;
+        top: 240px !important;
+        height: 180px !important;
+        width: 100%;
+        background-color: rgba(0, 133, 184, 0.9) !important;
+    }
+
+    .auTxt{
+        position: absolute;
+        top: 295px !important;
+        left: 50px !important;
+        right: 50px !important;
+        width: auto !important;
+    }
+
+    .auTxt > p {
+        font-size: 26px !important;
+        line-height: 31px !important;
+    }
+
+    #auTextDiv{
+        height:512px !important;
+    }
+
+    #auBlueTxt{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        width: 100% !important;
+
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+
+    }
+
+    #auGreyTxt{
+        font-size: 18px !important;
+        line-height: 21px !important;
+
+        width: 100% !important;
+
+        padding-bottom: 0 !important;
+    }
+
+    #auCentralCont{
+        padding-top: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 37px !important;
+    }
+
+    .automationTitle{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+        padding-left: 20px !important;
+
+        margin: 0 !important;
+    }
+
+    .automationText{
+        font-size: 18px !important;
+        line-height: 30px !important;
+
+        padding-top: 0 !important;
+        padding-right: 25px !important;
+        padding-left: 20px !important;
+
+        margin: 0 !important;
+    }
+
+    #centralText > li{
+        font-size: 18px !important;
+        line-height: 30px !important;
+
+        padding-left: 20px !important;
+
+        margin: 0 !important;
+    }
+
+    .csTitleSmall{
+        position: absolute;
+        top: 270px !important;
+        height: 139px !important;
+        width: 100%;
+        background-color: rgba(55, 140, 60, 0.9);
+    }
+
+    .csTxt{
+        width: auto !important;
+    }
+
+    .csImageTop{
+        height: 235px !important;
+    }
+
+    #clientStoryCont{
+        padding-top: 55px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 37px !important;
+    }
+
+    .blueTitle{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        padding-top: 28px !important;
+        padding-right: 32px !important;
+        padding-bottom: 25px !important;
+        padding-left: 22px !important;
+
+        margin: 0 !important;
+    }
+
+    .greyText{
+        font-size: 16px !important;
+        line-height: 28px !important;
+
+        padding-right: 32px !important;
+        padding-left: 22px !important;
+
+        margin: 0 !important;
+    }
+
+    #quote{
+        height: 763px !important;
+
+        background-color: #635B58 !important;
+    }
+
+    .quoteText{
+        margin-bottom: 30px !important;
+    }
+
+    #footerCont{
+        height: 370px !important;
+    }
+    
+
+    #footerOne > p{
+        padding-top: 10px !important;
+        padding-left: 23px !important;
+        line-height: 20px;
+        margin: 0 !important;
+    }
+
+    .footerLogo{
+        margin-top: 40px !important;
+        margin-left: 23px !important;
+    }
+
+    #footerTwo{
+        padding-top: 35px !important;
+        padding-left: 23px !important;
+
+        border: none !important;
+    }
+
+    #footerThree{
+        padding-top: 35px !important;
+        padding-left: 23px !important;
+        padding-bottom: 35px !important;
+
+        border: none !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #rightSide{
+        margin-top: 37px !important;
+    }
+
+    #banner{
+        height: 430px !important;
+    }
+
+    .bannerTitleSmall{
+        position: absolute;
+        top: 300px !important;
+        height: 170px !important;
+        width: 100%;
+        background-color: rgba(0, 133, 184, 0.9) !important;
+    }
+
+    .bannerTxt{
+        position: absolute;
+        top: 320px !important;
+        left: 35px !important;
+        width: auto !important;
+    }
+
+    .bannerText > p{
+        font-size: 26px !important;
+    }
+
+    #textDivTwo{
+        height: 350px !important;
+    }
+
+    #blueTxt{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        width: 100% !important;
+
+        padding-top: 90px !important;
+    }
+
+    #greyTxt{
+        font-size: 18px !important;
+        line-height: 21px !important;
+    }
+
+    #cardRow{
+        padding: 0 !important;
+    }
+
+    .polygonBlue{
+        height: 411px !important;
+        background-color: #0085B8 !important;
+    }
+
+    .polyTitle{
+        color: #fff !important;
+
+        padding-top: 35px !important;
+        padding-left: 32px !important;
+    }
+
+    .polyText{
+        color: #fff !important;
+        padding-right: 35px !important;
+        padding-left: 32px !important;
+        width: auto !important;
+
+        font-size: 18px !important;
+        line-height: 30px !important;
+    }
+
+    .tellMePolBtn{
+        margin-left: 32px !important;
+    }
+
+
+    #opCont{
+        padding-top: 120px !important;
+        padding-bottom: 52px !important;
+    }
+
+    .opTitleSmall{
+        position: absolute;
+        top: 360px !important;
+        height: 139px !important;
+        width: 100%;
+        background-color: rgba(55, 140, 60, 0.9) !important;
+    }
+
+    .opTxt{
+        top: 410px !important;
+        width: auto !important;
+    }
+
+    .imageTop{
+        margin: 0 !important;
+    }
+
+    .opTxtTitle{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        margin: 0 !important;
+
+        padding-right: 50px !important;
+    }
+
+    .opText{
+        font-size: 16px !important;
+        line-height: 24px !important;
+
+        margin: 0 !important;
+        padding-right: 50px !important;
+    }
+
+    #opCont{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #containerBT{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    #containerAS{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    #cardContainer{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    #containerCU{
+        height: 363px !important;
+    }
+
+    #cuBlueTxt{
+        font-size: 22px;
+        line-height: 26px;
+
+        padding-top: 45px !important;
+        padding-bottom: 30px !important;
+    }
+
+    #cuGreyTxt{
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+     #auTextDiv{
+        height: 398px !important;
+        background-color: #F0F9FE !important; 
+    }
+
+    #auBanner{
+        height: 431px !important;
+    }
+
+    .auTitleSmall{
+        position: absolute;
+        top: 350px !important;
+        height: 179px !important;
+        height: 139px !important;
+        width: 100%;
+        background-color: rgba(0, 133, 184, 0.9) !important;
+    }
+
+    .auTxt{
+        top: 395px !important;
+        left: 35px !important;
+        width: auto !important;
+    }
+
+    .auTxt > p{
+        font-size: 32px !important;
+        line-height: 38px !important;
+    }
+
+    #auTextDiv{
+        height: 432px !important;
+    }
+
+    #auBlueTxt{
+        font-size: 26px;
+        line-height: 31px;
+
+        padding-top: 128px !important;
+        padding-bottom: 27px !important;
+        margin: 0 !important;
+    }
+
+    #auGreyTxt{
+        width:auto !important;
+
+        padding-bottom: 70px;
+        margin: 0 !important;
+
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+
+    #auCentralCont{
+        padding-top: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .cuTitleSmall{
+        position: absolute;
+        top: 260px !important;
+        height: 139px !important;
+        width: 100%;
+        background-color: rgba(0, 133, 184, 0.9) !important;
+    }
+
+    .cuTxt{
+        width: auto !important;
+    }
+
+    .csTitleSmall{
+        position: absolute;
+        top: 270px !important;
+        height: 139px !important;
+        width: 100%;
+        background-color: rgba(55, 140, 60, 0.9);
+    }
+
+    .csTxt{
+        width: auto !important;
+    }
+
+    .csImageTop{
+        height: 412px !important;
+    }
+
+    #clientStoryCont{
+        padding-top: 113px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .blueTitle{
+        font-size: 32px !important;
+        line-height: 39px !important;
+
+        padding-top: 40px !important;
+        padding-right: 54px !important;
+        padding-bottom: 34px !important;
+        padding-left: 20px !important;
+
+        margin: 0 !important;
+    }
+
+    .greyText{
+        font-size: 16px !important;
+        line-height: 28px !important;
+
+        padding-right: 54px !important;
+        padding-left: 20px !important;
+
+        margin: 0 !important;
+    }
+
+    #quote{
+        height: 763px !important;
+
+        background-color: #635B58 !important;
+    }
+
+    #footerCont{
+        height: 370px !important;
+    }
+
+    #footerOne > p{
+        padding-top: 10px !important;
+        padding-left: 35px !important;
+        line-height: 20px;
+        margin: 0 !important;
+    }
+
+    .footerLogo{
+        margin-top: 40px !important;
+        margin-left: 35px !important;
+    }
+
+    #footerTwo{
+        padding-top: 35px !important;
+        padding-left: 35px !important;
+
+        border: none !important;
+    }
+
+    #footerThree{
+        padding-top: 35px !important;
+        padding-left: 35px !important;
+        padding-bottom: 35px !important;
+
+        border: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #rightSide{
+        margin-top: 44px !important;
+    }
+
+    #banner{
+        height: 430px !important;
+    }
+
+    .bannerTitleSmall{
+        position: absolute;
+        top: 330px !important;
+        height: 139px !important;
+        width: 100%;
+        background-color: rgba(0, 133, 184, 0.9) !important;
+    }
+
+    .bannerTxt{
+        position: absolute;
+        top: 360px !important;
+        left: 35px !important;
+        width: auto !important;
+
+        font-size: 32px !important;
+        line-height: 39px !important;
+    }
+
+    .bannerTxt > p{
+        font-size: 32px !important;
+        line-height: 39px !important;
+    }
+
+    #textDivTwo{
+        height: 421px !important;
+    }
+
+    #blueTxt{
+        padding-top: 100px !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    #greyTxt{
+        padding-bottom: 68px !important;
+    }
+
+    #cardRow{
+        padding: 0 !important;
+    }
+
+    #cardImageOne{
+        height: 100% !important;
+        background-image: url("../img/cardOneV2.png");
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 0 !important;
+    }
+
+    #cardImageTwo{
+        height: 100% !important;
+        background-image: url("../img/cardTwoV2.png");
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 0 !important;
+    }
+
+    #cardImageThree{
+        height: 100% !important;
+        background-image: url("../img/cardThreev2.png");
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 0 !important;
+    }
+
+    .polygonDiv{
+        height: 370px;
+        width: 653px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 40px !important;
+    }
+
+    .polyTitle{
+        font-size: 28px !important;
+        line-height: 34px !important;
+
+        padding-left: 90px !important;
+        padding-right: 50px !important;
+        padding-bottom: 20px !important;
+        margin: 0 !important;
+    }
+
+    .polyText{
+        width: 572px;
+        font-size: 18px !important;
+        line-height: 30px;
+
+        padding-left: 90px !important;
+        padding-right: 50px !important;
+        padding-bottom: 20px !important;
+        margin: 0 !important;
+    }
+
+    .tellMePolBtn{
+        font-size: 18px !important;
+        font-weight: bold !important;
+        border-radius: 10px !important;
+
+        margin-left: 90px !important;
+        margin-bottom: 40px !important;
+    }
+
+    #aboutCont{
+        background-image: url("../img/polygon.png");
+        background-color: #cccccc;
+        height: 580px !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .cuTxt{
+        width: auto !important;
+    }
+
+    #textDivTwo{
+        height: 420px !important;
+    }
+
+    #containerCU{
+        height: 359px !important;
+    }
+
+    .opTitleSmall{
+        position: absolute;
+        top: 360px !important;
+        height: 139px !important;
+        width: 100%;
+        background-color: rgba(55, 140, 60, 0.9) !important;
+    }
+
+    .opTxt{
+        top: 410px !important;
+        width: auto !important;
+    }
+
+    #opCont{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .imageTop{
+        margin-top: 0 !important;
+    }
+
+    #containerBT{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .opTxtTitle{
+        padding-left: 40px !important;
+    }
+
+    .opText{
+        padding-left: 40px !important;
+    }
+
+    .buttonMore{
+        padding-left: 40px !important;
+    }
+
+    .cuTitleSmall{
+        position: absolute;
+        top: 260px !important;
+        height: 139px !important;
+        width: 100%;
+        background-color: rgba(0, 133, 184, 0.9) !important;
+    }
+
+    .cuTxt{
+        width: auto !important;
+    }
+
+    .csTitleSmall{
+        position: absolute;
+        top: 270px !important;
+        height: 139px !important;
+        width: 100%;
+        background-color: rgba(55, 140, 60, 0.9);
+    }
+
+    .csTxt{
+        width: auto !important;
+    }
+
+    .csImageTop{
+        height: 412px !important;
+    }
+
+    #clientStoryCont{
+        padding-top: 113px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .blueTitle{
+        font-size: 32px !important;
+        line-height: 39px !important;
+
+        padding-top: 40px !important;
+        padding-right: 54px !important;
+        padding-bottom: 34px !important;
+        padding-left: 20px !important;
+
+        margin: 0 !important;
+    }
+
+    .greyText{
+        font-size: 16px !important;
+        line-height: 28px !important;
+
+        padding-right: 54px !important;
+        padding-left: 20px !important;
+
+        margin: 0 !important;
+    }
+
+    #footerCont{
+        height: 370px !important;
+    }
+
+    #footerOne{
+        padding-top: 45px !important;
+        padding-bottom: 30px !important;
+        padding-left: 35px !important;
+    }
+
+    #footerOne > p{
+        padding-left: 45px !important;
+    }
+
+    #footerTwo{
+        padding-left: 35px !important;
+
+        border: none !important;
+    }
+
+    #footerThree{
+        padding-top: 45px !important;
+        padding-bottom: 30px !important;
+        padding-left: 35px !important;
+
+        border: none !important;
+    }
+
+    #quote{
+        height: 496px !important;
+
+        background-color: #635B58 !important;
+    }
+
+    #auTextDiv{
+        height: 398px !important;
+        background-color: #F0F9FE !important; 
+    }
+
+    #auBanner{
+        height: 431px !important;
+    }
+
+    .auTitleSmall{
+        position: absolute;
+        top: 350px !important;
+        height: 139px !important;
+        width: 100%;
+        background-color: rgba(0, 133, 184, 0.9) !important;
+    }
+
+    .auTxt{
+        top: 395px !important;
+        width: auto !important;
+    }
+
+    #auTextDiv{
+        height: 432px !important;
+    }
+
+    #auBlueTxt{
+        font-size: 26px;
+        line-height: 31px;
+
+        padding-top: 128px !important;
+        padding-bottom: 27px !important;
+        margin: 0 !important;
+    }
+
+    #auGreyTxt{
+        width:auto !important;
+
+        padding-bottom: 70px;
+        margin: 0 !important;
+
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+    #auCentralCont{
+        padding-top: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+    .bannerTitle{
+        position: absolute;
+        top: 400px !important;
+        height: 200px !important;
+        width: 90vw !important;
+    }
+
+    .auTitle{
+        position: absolute;
+        top: 240px !important;
+        height: 200px !important;
+        width: 90vw !important;
+    }
+
+    #cardOne .card-img-top{
+        height: 215px !important;
+    }
+
+    #cardOne .card-body{
+        height: 479px !important;
+    }
+
+    #cardOne .card-title{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        padding-top: 18px !important;
+        padding-right: 65px !important;
+        padding-left: 24px !important;
+    }
+
+    #cardOne .card-text{
+        font-size: 18px !important;
+        line-height: 30px !important;
+
+        padding-top: 20px !important;
+        padding-right: 40px !important;
+        padding-left: 24px !important;
+    }
+
+    #cardOne .card-footer{
+        height: 100px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 24px !important;
+        padding-right: 0px !important;
+
+        display: flex !important;
+        justify-content: start;
+        align-items: center !important;
+    }
+
+    /* Card two on Index*/
+
+    #cardTwo .card-img-top{
+        height: 220px !important;
+    }
+
+    #cardTwo .card-body{
+        height: 479px !important;
+    }
+
+    #cardTwo .card-title{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        padding-top: 18px !important;
+        padding-right: 65px !important;
+        padding-left: 24px !important;
+    }
+
+    #cardTwo .card-text{
+        font-size: 18px !important;
+        line-height: 30px !important;
+
+        padding-top: 20px !important;
+        padding-right: 40px !important;
+        padding-left: 24px !important;
+    }
+
+    #cardTwo .card-footer{
+        height: 100px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 24px !important;
+        padding-right: 0px !important;
+
+        display: flex !important;
+        justify-content: start;
+        align-items: center !important;
+    }
+
+    /* Card three on Index*/
+
+    #cardThree .card-img-top{
+        height: 220px !important;
+    }
+
+    #cardThree .card-body{
+        height: 479px !important;
+    }
+
+    #cardThree .card-title{
+        font-size: 22px !important;
+        line-height: 26px !important;
+
+        padding-top: 18px !important;
+        padding-right: 65px !important;
+        padding-left: 24px !important;
+    }
+
+    #cardThree .card-text{
+        font-size: 18px !important;
+        line-height: 30px !important;
+
+        padding-top: 20px !important;
+        padding-right: 40px !important;
+        padding-left: 24px !important;
+    }
+
+    #cardThree .card-footer{
+        height: 100px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 24px !important;
+        padding-right: 0px !important;
+
+        display: flex !important;
+        justify-content: start;
+        align-items: center !important;
+    }
+
+    .tellMeBtn{
+        font-size: 18px !important;
+
+        border-radius: 10px !important;
+    }
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .bannerTitle{
+        position: absolute;
+        top: 400px !important;
+        height: 200px !important;
+        width: 90vw !important;
+    }
+
+    .auTitle{
+        position: absolute;
+        top: 240px !important;
+        height: 200px !important;
+        width: 90vw !important;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #cardOne .card-body{
+        height: 450px !important;
+    }
+
+    #cardOne .card-title{
+        font-size: 22px !important;
+        line-height: 32px !important;
+        font-weight: bold !important;
+        font-family: 'LibreFranklin-Bold';
+        color: #0085B8 !important;
+
+        padding-top: 40px !important;
+        padding-right: 55px !important;
+        padding-left: 40px !important;
+    }
+
+    #cardOne .card-text{
+        font-size: 18px !important;
+        line-height: 30px !important;
+        font-family: 'LibreFranklin-Regular';
+        color: #635B58;
+
+        padding-top: 40px !important;
+        padding-right: 40px !important;
+        padding-left: 40px !important;
+    }
+
+    #cardOne .card-footer{
+        border: none !important;
+        background-color: #fff !important;
+        padding-top: 37px !important;
+        padding-bottom: 37px !important;
+        padding-left: 40px !important;
+    }
+
+    /* Card two on Index*/
+
+    #cardTopTwo{
+        width: auto !important;
+        height: 25px !important;
+        background-color: #0085B8;
+        border: 3px solid #fff;
+    }
+
+    #cardTwo{
+        background-color: #ECECEC !important;
+        box-shadow: 5px 5px 20px rgb(184, 184, 184) !important;
+    }
+
+    #cardTwo .card-img-top{
+        height: 220px !important;
+    }
+
+    #cardTwo .card-body{
+        height: 450px !important;
+    }
+
+    #cardTwo .card-title{
+        font-size: 22px !important;
+        line-height: 32px !important;
+        font-weight: bold !important;
+        font-family: 'LibreFranklin-Bold';
+        color: #0085B8 !important;
+
+        padding-top: 40px !important;
+        padding-right: 55px !important;
+        padding-left: 40px !important;
+    }
+
+    #cardTwo .card-text{
+        font-size: 18px !important;
+        line-height: 30px !important;
+        font-family: 'LibreFranklin-Regular';
+        color: #635B58;
+
+        padding-top: 40px !important;
+        padding-right: 40px !important;
+        padding-left: 40px !important;
+    }
+
+    #cardTwo .card-footer{
+        border: none !important;
+        background-color: #ECECEC !important;
+        padding-top: 37px !important;
+        padding-bottom: 37px !important;
+        padding-left: 40px !important;
+    }
+
+    /* Card three on Index*/
+
+    #cardTopThree{
+        width: auto !important;
+        height: 25px !important;
+        background-color: #635B58;
+        border: 3px solid #fff;
+    }
+
+    #cardThree .card-img-top{
+        height: 220px !important;
+    }
+
+    #cardThree .card-body{
+        height: 450px !important;
+    }
+
+    #cardThree .card-title{
+        font-size: 22px !important;
+        line-height: 32px !important;
+        font-weight: bold !important;
+        font-family: 'LibreFranklin-Bold';
+        color: #0085B8 !important;
+
+        padding-top: 40px !important;
+        padding-right: 55px !important;
+        padding-left: 40px !important;
+    }
+
+    #cardThree .card-text{
+        font-size: 18px !important;
+        line-height: 30px !important;
+        font-family: 'LibreFranklin-Regular';
+        color: #635B58;
+
+        padding-top: 40px !important;
+        padding-right: 40px !important;
+        padding-left: 40px !important;
+    }
+
+    #cardThree .card-footer{
+        border: none !important;
+        background-color: #fff !important;
+        padding-top: 37px !important;
+        padding-bottom: 37px !important;
+        padding-left: 40px !important;
+    }
+}
